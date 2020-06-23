@@ -1,0 +1,29 @@
+{
+  "name": "2020-06-work",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ubique0305/SpringBoot-Practice.git"
+  },
+  "author": "ubik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ubique0305/SpringBoot-Practice/issues"
+  },
+  "homepage": "https://github.com/Ubique0305/SpringBoot-Practice#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^9.0.1",
+    "@commitlint/config-conventional": "^9.0.1",
+    "cz-conventional-changelog": "^3.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
